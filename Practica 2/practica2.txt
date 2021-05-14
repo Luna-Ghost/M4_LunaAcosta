@@ -1,0 +1,12 @@
+Footer con información del instructor e informacion de contacto
+Página principal: El titulo de la página centrado con apariencia tranquila y zen, tipo meditación.
+		  A lo largo de la página incluir tonalidades verdes, mandalas y zentangle art
+		  Una seccion con la informacion sobre rutinas y comida saludable
+		  Otra seción con articulos recomendados. Buscador
+
+Vista rutinas: Un titulo de la vista, buscador. 
+	       Articulos sobre rutinas, usar imagenes.
+
+Vista comida sana y ligera: Un titulo de la vista, buscador.
+	       Articulos sobre alimentos saludables, recetas y consejos.
+	       Con imagenes.
