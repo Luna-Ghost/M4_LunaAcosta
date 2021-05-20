@@ -1,15 +1,15 @@
 /*========Fuentes==========*/
 @font-face{
     font-family: 'Cinzel';
-    src: url(./statics/fonts/CinzelDecorative-Regular.ttf);
+    src: url(../fonts/CinzelDecorative-Regular.ttf);
 }
 @font-face{
     font-family: 'Rosario';
-    src: url(./statics/fonts/Rosario-VariableFont_wght.ttf);
+    src: url(../fonts/Rosario-VariableFont_wght.ttf);
 }
 @font-face{
     font-family: 'Nova';
-    src: url(./statics/fonts/NovaRound-Regular.ttf);
+    src: url(../fonts/NovaRound-Regular.ttf);
 }
 
 /*========Estructura==========*/
@@ -198,4 +198,18 @@ footer{
     text-align: center;
     font-family: 'Rosario';
     background-color: #859194;
+}
+
+/*========Scroll==========*/
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #0E152F;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #0E152F;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #A15F27; 
+    background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
 }
