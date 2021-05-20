@@ -1,0 +1,28 @@
+/*body{
+    background: rgb(65,65,65);
+    background: radial-gradient(circle, rgba(65,65,65,1) 0%, rgba(0,0,0,1) 100%);
+}*/
+#cuadro1{
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: #FF38E1;
+}
+#cuadro2{
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: #319FFF;
+}
+#cuadro3{
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: #FA9A00;
+}
+#cuadro4{
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: #3EFF00;
+}

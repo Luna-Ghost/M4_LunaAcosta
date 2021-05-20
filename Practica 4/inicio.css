@@ -1,0 +1,201 @@
+/*========Fuentes==========*/
+@font-face{
+    font-family: 'Cinzel';
+    src: url(./statics/fonts/CinzelDecorative-Regular.ttf);
+}
+@font-face{
+    font-family: 'Rosario';
+    src: url(./statics/fonts/Rosario-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: 'Nova';
+    src: url(./statics/fonts/NovaRound-Regular.ttf);
+}
+
+/*========Estructura==========*/
+body{
+    background: linear-gradient(#0E152F, #340D09);
+}
+
+/*========General==========*/
+input{
+    width: 70%;
+    height: 64.5px;
+    border-width: 3px;
+    font-family: 'Nova';
+    font-size: 1.563rem;
+    color: #421410;
+    background-color: #A15F27;
+    border-color: #421410;
+}
+input:hover{
+    background-color: #a15512;
+}
+input:focus{
+    background-color: #7c410d;
+}
+
+/*========Header y encabezados==========*/
+hr {
+    height: 2px;
+    background-color: #A15F27;
+    border-color: #A15F27;
+}
+h1 {
+    line-height: 0.55;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-weight: 700;
+    font-size: 3.052rem;
+    color: #A15F27;
+}
+
+/*========Aside==========*/
+aside{
+    width: 25%;
+    height: 573px;
+    display: block;
+    background-color: #1C2847;
+}
+a{
+    height: 10px;
+    margin: 10px;
+    font-family: 'Cinzel';
+    font-size: 1.563rem;
+    color: #8DEBFF;
+    text-decoration: none;
+}
+a:hover{
+    color: #A15F27;
+}
+a:focus{
+    color: #421410;
+}
+.per{
+    width: 20%;
+    
+}
+
+/*========Sections==========*/
+section{
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Nova';
+    font-size: 1.25rem;
+    color: #9EAAAD;
+}
+.seleccion{
+    width: 75%;
+    left: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    top: -450px;
+}
+.seleccion2{
+    width: 75%;
+    margin-top: 175px;
+    float: right;
+}
+.personaje{
+    width: 75%;
+    left: 25%;
+    box-sizing: border-box;
+    position: absolute;
+    top: -340px;
+    right: 30px;
+    font-family: 'Nova';
+    font-size: 1.25rem;
+    color: #9EAAAD;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+.activ{
+    width: 71%;
+    font-family: 'Nova';
+    font-size: 1rem;
+    color: #9EAAAD;
+    background-color: transparent;
+    position: relative;
+    left: 25%;
+    top: -250px;
+    box-sizing: border-box;
+}
+.Mellon{
+    position: absolute;
+    width: 75%;
+    left: 25%;
+    font-family: 'Rosario';
+    color: #9EAAAD;
+}
+#Mellon2{
+    margin-top: 95px;
+}
+#gandalf{
+    top: -150px;
+}
+
+/*========Articulos==========*/
+article{
+    width: 75%;
+    height: 380px;
+    margin: 20px;
+    font-family: 'Cinzel';
+    text-align: center;
+    font-size: 1.563rem;
+    color: #8DEBFF;
+    background-color: #1C2847;
+}
+.art1{
+    width: 45%;
+    float: left;
+}
+.art2{
+    width: 45%;
+    float: right;
+}
+.p{
+    width: 70%;
+    position: relative;
+    top: 540px;
+    font-size: 1.25rem;
+    background-color: transparent;
+    font-family: 'Nova';
+    color: #9EAAAD;
+    font-size: 1rem;
+    margin: 30px;
+    /*margin-top: 530px;
+    float: left;*/
+}
+.pp{
+    width: 20%;
+    position: relative;
+    right: -720px;
+    top: 140px;
+    background-color: transparent;
+    display: block;
+    margin: 30px;
+    /*margin-top: 540px;
+    float: right;*/
+}
+.hist_boton{
+    cursor: pointer;
+}
+.bot_img{
+    width:80px;
+    height:80px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: 3px solid #421410;
+    cursor: pointer;
+}
+
+/*========Footer==========*/
+footer{
+    height: 30px;
+    text-align: center;
+    font-family: 'Rosario';
+    background-color: #859194;
+}
